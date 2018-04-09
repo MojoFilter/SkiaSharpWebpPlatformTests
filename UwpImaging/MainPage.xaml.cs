@@ -42,6 +42,7 @@ namespace UwpImaging
             picker.FileTypeFilter.Add(".jpeg");
             picker.FileTypeFilter.Add(".png");
             picker.FileTypeFilter.Add(".bmp");
+            picker.FileTypeFilter.Add(".gif");
             picker.FileTypeFilter.Add(".webp");
             var file = await picker.PickSingleFileAsync();
             this.imagePanel.Children.Clear();
